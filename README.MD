@@ -32,6 +32,7 @@ The benchmark comprises:
 1. Generate predictions on the test set.
 2. Prepare your solutions as a pickle file containing a pandas DataFrame with columns `inputs` and `predicted_brief_hospital_course`.
 3. Upload your submission to the following HIPAA-compliant Google Drive folder.
+
 [**Link to upload your solutions**](https://drive.google.com/drive/folders/different_link_id_here) (provided upon access approval).
 
 Evaluation results will be available within 48 hours of submission.
