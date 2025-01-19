@@ -1,10 +1,10 @@
 # Discharge Summarization Benchmark
 
-This repository hosts a benchmark for generating draft discharge summaries using Generative AI (GenAI).  Well-defined goals and evaluation benchmarks are crucial for driving scientific progress in this area.
+This repository hosts a benchmark for generating draft discharge summaries using Generative AI.  Well-defined goals and evaluation benchmarks are crucial for driving scientific progress in this area.
 
 ## Motivation
 
-Generating high-quality draft discharge summaries with GenAI is important because manual summarization is:
+Generating high-quality draft discharge summaries with Generative AI is important because manual summarization is:
 
 * **Time-consuming:** A tedious and repetitive task that takes away valuable time.
 * **Leads to burnout:**  Contributes to "pajama time" (work done after hours).
