@@ -20,9 +20,7 @@ This benchmark focuses specifically on generating the "Brief Hospital Course" se
 
 Email or Slack François Grolleau (grolleau@stanford.edu / @François Grolleau) to request access. Upon approval, you will receive a link to the HIPAA-compliant Google Drive folder:
 
-<div style="text-align: center;">
-  <a href="https://drive.google.com/drive/folders/link_id_here" style="font-weight: bold;">Link to access the benchmark</a> (provided upon access approval)
-</div>
+<center><a href="https://drive.google.com/drive/folders/link_id_here" style="font-weight: bold;">Link to access the benchmark</a> (provided upon access approval).</center>
 
 The benchmark comprises:
 
@@ -34,9 +32,7 @@ The benchmark comprises:
 1. Generate predictions on the test set.
 2. Prepare your solutions as a pickle file containing a pandas DataFrame with columns `inputs` and `predicted_brief_hospital_course`.
 3. Upload your submission to the following HIPAA-compliant Google Drive folder.
-<div style="text-align: center;">
-  <a href="https://drive.google.com/drive/folders/different_link_id_here" style="font-weight: bold;">Link to upload your solutions</a> (provided upon access approval).
-</div>
+<center><a href="https://drive.google.com/drive/folders/different_link_id_here" style="font-weight: bold;">Link to upload your solutions</a> (provided upon access approval).</center>
 
 Evaluation results will be available within 48 hours of submission.
 
