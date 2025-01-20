@@ -22,7 +22,8 @@ For Stanford affiliates: Contact François Grolleau (grolleau@stanford.edu or @F
 
 Upon approval, you will receive access instructions for the HIPAA-compliant Google Drive folder containing the benchmark data:
 
-[**Benchmark Data (Access Upon Approval)**](https://drive.google.com/drive/folders/1SJp9WQEiQ5PMGmHgS--tJt1FRBG33bbZ){target="_blank"}
+[**Benchmark Data (Access Upon Approval)**](https://drive.google.com/drive/folders/1SJp9WQEiQ5PMGmHgS--tJt1FRBG33bbZ)
+<a href="https://drive.google.com/drive/folders/1SJp9WQEiQ5PMGmHgS--tJt1FRBG33bbZ" target="_blank">**Benchmark Data (Access Upon Approval)**</a>
 
 ## Data Description
 
@@ -70,7 +71,8 @@ The data is provided as a pandas DataFrame with the following columns:
 2. Create a pickle file containing a pandas DataFrame with columns `inputs` (matching the test set `inputs`) and `predicted_brief_hospital_course`.
 3. Upload your submission to the designated Submission Folder:
 
-[**Submit your predictions (Access Upon Approval)**](https://drive.google.com/drive/folders/1-LjLGC8KLA6TgzBbNW1HdDlhZ54Vi046){target="_blank"}
+[**Submit your predictions (Access Upon Approval)**](https://drive.google.com/drive/folders/1-LjLGC8KLA6TgzBbNW1HdDlhZ54Vi046)
+<center><a href="https://drive.google.com/drive/folders/1SJp9WQEiQ5PMGmHgS--tJt1FRBG33bbZ" target="_blank">**Submit your predictions (Access Upon Approval)**</a></center>
 
 Evaluation results will be available within 48 hours of submission.
 
