@@ -66,7 +66,7 @@ The data is provided as a pandas DataFrame with the following columns:
 
 ## Submission Instructions
 
-1. Generate predictions for the test set.
+1. Generate brief hospital courses for the test set.
 2. Create a pickle file containing a pandas DataFrame with columns `inputs` (matching the test set `inputs`) and `predicted_brief_hospital_course`.
 3. Upload your submission to the designated Submission Folder:
 
