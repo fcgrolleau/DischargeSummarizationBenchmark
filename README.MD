@@ -18,8 +18,7 @@ This benchmark uses sensitive patient data from Stanford Health Care and is **re
 
 **To request access:**
 
-1. Contact François Grolleau (grolleau@stanford.edu or @François Grolleau on Slack).
-2. Briefly describe your intended use case and confirm your Stanford affiliation.
+For Stanford affiliates: Contact François Grolleau (grolleau@stanford.edu or @François Grolleau on Slack) with your intended use case.
 
 Upon approval, you will receive access instructions for the HIPAA-compliant Google Drive folder containing the benchmark data:
 
