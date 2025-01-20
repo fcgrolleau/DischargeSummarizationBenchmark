@@ -70,7 +70,7 @@ The data is provided as a pandas DataFrame with the following columns:
 2. Create a pickle file containing a pandas DataFrame with columns `inputs` (matching the test set `inputs`) and `predicted_brief_hospital_course`.
 3. Upload your submission to the designated Submission Folder:
 
-<a href="https://drive.google.com/drive/folders/1-LjLGC8KLA6TgzBbNW1HdDlhZ54Vi046" target="_blank" rel="noopener">**Submit your predictions (Access Upon Approval**</a>
+<a href="https://drive.google.com/drive/folders/1-LjLGC8KLA6TgzBbNW1HdDlhZ54Vi046" target="_blank" rel="noopener">**Submit your predictions (Access Upon Approval)**</a>
 
 Evaluation results will be available within 48 hours of submission.
 
