@@ -12,35 +12,31 @@ Generating high-quality draft discharge summaries with Generative AI is importan
 
 With the ever-increasing volume of medical information, computational approaches are essential for effectively managing this challenge.
 
-## Benchmark Access
+## Benchmark Access (Stanford Affiliates Only)
 
-This benchmark focuses specifically on generating the "Brief Hospital Course" section of discharge summaries. The data is currently only available to Stanford researchers due to containing high-risk PHI from Stanford Health Care.
+This benchmark uses sensitive patient data from Stanford Health Care and is **restricted to Stanford researchers** due to HIPAA regulations.  Access requires a Stanford affiliation and installation of Cardinal Key for secure data access.
 
-**To access the benchmark:**
+**To request access:**
 
-Email or Slack François Grolleau (grolleau@stanford.edu / @François Grolleau) to request access. Upon approval, you will receive a link to the HIPAA-compliant Google Drive folder:
+1. Contact François Grolleau (grolleau@stanford.edu or @François Grolleau on Slack).
+2. Briefly describe your intended use case and confirm your Stanford affiliation.
 
-[**Link to access the benchmark**](https://drive.google.com/drive/folders/link_id_here) (provided upon access approval).
+Upon approval, you will receive access instructions for the HIPAA-compliant Google Drive folder containing the benchmark data:
+
+[**Benchmark Data (Access Upon Approval)**](https://drive.google.com/drive/folders/1SJp9WQEiQ5PMGmHgS--tJt1FRBG33bbZ)
+
+## Data Description
 
 The benchmark comprises:
 
 * **Training Set (1500 patients):** Paired input clinical notes and corresponding physician-edited "Brief Hospital Course" summaries (silver labels).
 * **Test Set (200 patients):** Input clinical notes only.
 
-**Participation:**  
+The methodology for data selection and curation is described in [dataset_preparation.md](dataset_preparation.md) (forthcoming).
 
-1. Generate predictions on the test set.
-2. Prepare your solutions as a pickle file containing a pandas DataFrame with columns `inputs` and `predicted_brief_hospital_course`.
-3. Upload your submission to the following HIPAA-compliant Google Drive folder.
+**Data Format:**
 
-[**Link to upload your solutions**](https://drive.google.com/drive/folders/different_link_id_here) (provided upon access approval).
-
-Evaluation results will be available within 48 hours of submission.
-
-## Dataset Description
-The methodology for selecting and curating the benchmark dataset is described in [dataset_preparation.md](dataset_preparation.md) (forthcoming).
-
-The training dataset consists of two key columns:
+The data is provided as a pandas DataFrame with the following columns:
 
 * **`inputs`**: Contains the History and Physical (H&P - the first note taken at admission) and all progress notes written by physicians during the patient's hospital stay order from last note to first note.  The text is structured as follows:
 > #####################
