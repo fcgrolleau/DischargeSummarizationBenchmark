@@ -59,7 +59,7 @@ The data is provided as a pandas DataFrame with the following columns:
 >UNJITTERED NOTE DATE: 2023-02-01 07:16:00
 >... (Progress note content) ...
 
-* **`brief_hospital_course`**: This column contains the hospital course summary parsed out from the general discharge summaries. Example:
+* **`brief_hospital_course` (Training set only)**: This column contains the hospital course summary extracted from the general discharge summaries. Example:
 >Reason for Hospitalization   Hepatic metastasis
 >Brief History of Present Illness   XXX XXX is a 48 Y old woman with BRCA-negative, stage IIIC high-grade serous ovarian cancer, who underwent an exploratory laparotomy, modified radical hysterectomy with bilateral salpingo-oophorectomy, bilateral pelvic and periaortic lymphadenectomy with mobilization of the splenic flexure, omentectomy, diaphragm peritoneal resection, excision of liver lesions with a splenectomy in XX/XX/XXXX by Dr. XXX and Dr. XXX at XXX Hospital. She then was treated with 2 cycles of carboplatin and Taxol and was referred to Dr. XXX. He recommended that she undergo intraperitoneal chemotherapy, and she was treated with 7 cycles of intraperitoneal chemotherapy with cisplatin and Taxol.
 >... (Brief hospital course content) ...
