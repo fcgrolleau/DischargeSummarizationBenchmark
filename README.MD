@@ -22,7 +22,7 @@ For Stanford affiliates: Contact François Grolleau (grolleau@stanford.edu or @F
 
 Upon approval, you will receive access instructions for the HIPAA-compliant Google Drive folder containing the benchmark data:
 
-[**Benchmark Data (Access Upon Approval)**](https://drive.google.com/drive/folders/1SJp9WQEiQ5PMGmHgS--tJt1FRBG33bbZ)
+[**<center>Benchmark Data (Access Upon Approval)</center>**](https://drive.google.com/drive/folders/1SJp9WQEiQ5PMGmHgS--tJt1FRBG33bbZ)
 
 ## Data Description
 
