@@ -24,8 +24,8 @@ Email or Slack François Grolleau (grolleau@stanford.edu / @François Grolleau) 
 
 The benchmark comprises:
 
-* **Training set:** Contains input clinical notes and corresponding target summaries (physicians-edited silver labels).
-* **Test set:**  Contains only input clinical notes.
+* **Training Set (1500 patients):** Paired input clinical notes and corresponding physician-edited "Brief Hospital Course" summaries (silver labels).
+* **Test Set (200 patients):** Input clinical notes only.
 
 **Participation:**  
 
