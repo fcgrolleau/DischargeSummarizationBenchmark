@@ -68,7 +68,8 @@ The data is provided as a pandas DataFrame with the following columns:
 
 1. Generate predictions for the test set.
 2. Create a pickle file containing a pandas DataFrame with columns `inputs` (matching the test set `inputs`) and `predicted_brief_hospital_course`.
-3. Upload your submission to the designated HIPAA-compliant Google Drive folder (instructions provided upon access approval).  
+3. Upload your submission to the following HIPAA-compliant Google Drive folder (instructions provided upon access approval):
+[**Submit your predictions (Access Upon Approval)**](https://drive.google.com/drive/folders/1-LjLGC8KLA6TgzBbNW1HdDlhZ54Vi046)
 
 Evaluation results will be available within 48 hours of submission.
 
