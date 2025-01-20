@@ -14,7 +14,7 @@ With the ever-increasing volume of medical information, computational approaches
 
 ## Benchmark Access (Stanford Affiliates Only)
 
-This benchmark uses sensitive patient data from Stanford Health Care and is **restricted to Stanford researchers** due to HIPAA regulations.  Access requires a Stanford affiliation and installation of Cardinal Key for secure data access.
+This benchmark uses sensitive patient data from Stanford Health Care and is currently **restricted to Stanford researchers** due to HIPAA regulations.  Access requires a Stanford affiliation and installation of Cardinal Key for secure data access.
 
 **To request access:**
 
