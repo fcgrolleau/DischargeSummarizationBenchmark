@@ -64,6 +64,14 @@ The data is provided as a pandas DataFrame with the following columns:
 >Brief History of Present Illness   Imogene Most is a 48 Y old woman with BRCA-negative, stage IIIC high-grade serous ovarian cancer, who underwent an exploratory laparotomy, modified radical hysterectomy with bilateral salpingo-oophorectomy, bilateral pelvic and periaortic lymphadenectomy with mobilization of the splenic flexure, omentectomy, diaphragm peritoneal resection, excision of liver lesions with a splenectomy in 08/26/2016 by Dr. Craft and Dr. Burnell at Good Samaritan Hospital.      She then was treated with 2 cycles of carboplatin and Taxol and was referred to Dr. XXX. He recommended that she undergo intraperitoneal chemotherapy, and she was treated with 7 cycles of intraperitoneal chemotherapy with cisplatin and Taxol.
 >... (Brief hospital course content) ...
 
+## Submission Instructions
+
+1. Generate predictions for the test set.
+2. Create a pickle file containing a pandas DataFrame with columns `inputs` (matching the test set `inputs`) and `predicted_brief_hospital_course`.
+3. Upload your submission to the designated HIPAA-compliant Google Drive folder (instructions provided upon access approval).  
+
+Evaluation results will be available within 48 hours of submission.
+
 ## Acceptable Approaches
 
 We welcome any approach for hospital course summarization, including open-weight models from Hugging Face (prompted, fine-tuned, chain-of-thought, in-context learning, etc.). Proprietary models are acceptable as long as HIPAA compliance is maintained (e.g., do not send PHI to standard LLM APIs; secure versions may be permissible).
