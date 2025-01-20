@@ -93,8 +93,10 @@ Contributions are welcome! Code contributions (e.g., your solution's code) can b
 
 For any questions, suggestions, or further information, please contact François Grolleau: grolleau@stanford.edu
 
+## Project Information
+
 **Author:** François Grolleau
 
 **Affiliation:** Stanford Center for Biomedical Informatics Research, Stanford University
 
-**Last Updated:** January 17, 2025
+**Last Updated:** January 18, 2025
