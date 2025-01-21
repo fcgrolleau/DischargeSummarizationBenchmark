@@ -1,6 +1,6 @@
 # Discharge Summarization Benchmark
 
-This repository hosts a benchmark for generating draft discharge summaries using Generative AI.  Friendly competition and evaluation benchmarks with well-defined goals are crucial for driving scientific progress in this area.
+This benchmark challenges participants to develop the best generative AI system for creating draft discharge summaries. Performance will be evaluated against a rigorous, physician-guided benchmark with clearly defined goals.
 
 ## Motivation
 
