@@ -1,37 +1,35 @@
 # Discharge Summarization Benchmark
 
-This benchmark challenges participants to develop the best generative AI system for creating draft discharge summaries. Performance will be evaluated against a rigorous, physician-guided benchmark with clearly defined goals.
+This benchmark challenges participants to develop state-of-the-art generative AI systems for automatically creating draft "Brief Hospital Course" summaries from patient clinical notes. Performance will be evaluated against a rigorous, physician-guided benchmark with clearly defined evaluation metrics.
 
 ## Motivation
 
-Generating high-quality draft discharge summaries with Generative AI is important because manual summarization is:
+Generating high-quality draft discharge summaries is crucial for improving healthcare efficiency and patient care. Manual summarization is:
 
-* **Time-consuming:** A tedious and repetitive task that takes away valuable time.
-* **Leads to burnout:**  Contributes to "pajama time" (work done after hours).
-* **Reduces patient care time:** Diverts physicians' time away from direct patient interaction and communication with other healthcare providers.
+* **Time-consuming:** Physicians spend valuable time on this tedious and repetitive task.
+* **Burnout Inducing:**  Contributes to after-hours work ("pajama time"), increasing physician burnout.
+* **Detracts from Patient Care:** Diverts physicians' time from direct patient interaction and care coordination.
 
-With the ever-increasing volume of medical information, computational approaches are essential for effectively managing this challenge.
+Automated summarization offers a solution to this challenge, allowing physicians to focus on patient care.  With the ever-growing volume of medical information, computational approaches are essential for effectively managing this information overload.
 
 ## Benchmark Access (Stanford Affiliates Only)
 
-This benchmark uses sensitive patient data from Stanford Health Care and is currently **restricted to Stanford researchers** due to HIPAA regulations.  Access requires a Stanford affiliation and installation of [Cardinal Key](https://uit.stanford.edu/service/cardinalkey/installation) for secure data access.
+This benchmark utilizes sensitive patient data from Stanford Health Care and is therefore **restricted to researchers with a Stanford affiliation** due to HIPAA regulations. Access requires a Stanford affiliation and installation of [Cardinal Key](https://uit.stanford.edu/service/cardinalkey/installation) for secure data access.
 
 **To request access:**
 
-For Stanford affiliates: Contact François Grolleau (grolleau@stanford.edu or @François Grolleau on Slack) with your intended use case.
-
-Upon approval, you will receive access instructions for the HIPAA-compliant Google Drive folder containing the benchmark data:
+Stanford affiliates should contact François Grolleau (grolleau@stanford.edu or @François Grolleau on Slack) with a brief description of their intended use case. Upon approval, you will receive access instructions for the HIPAA-compliant Google Drive folder containing the benchmark data:
 
 👉 <a href="https://drive.google.com/drive/folders/1SJp9WQEiQ5PMGmHgS--tJt1FRBG33bbZ" target="_blank" rel="noopener">**Benchmark Data (Access Upon Approval)**</a>
 
-## Data Description
+## Data
 
 The benchmark comprises:
 
-* **Training Set (1500 Stanford Health Care patients):** Paired input clinical notes and corresponding physician-edited "Brief Hospital Course" summaries (silver labels).
-* **Test Set (200 Stanford Health Care patients):** Input clinical notes only.
+* **Training Set (1500 Patients):** Paired input clinical notes and corresponding physician-edited "Brief Hospital Course" summaries (silver labels).
+* **Test Set (200 Patients):** Input clinical notes only.
 
-The methodology for data selection and curation is described in `dataset_preparation.md` (forthcoming).
+Detailed information about data selection and curation can be found in `dataset_preparation.md` (forthcoming).
 
 **Data Format:**
 
@@ -66,7 +64,7 @@ The data is provided as a pandas DataFrame with the following columns:
 
 ## Submission Instructions
 
-1. Generate brief hospital courses for the test set.
+1. Generate "Brief Hospital Course" summaries for the test set.
 2. Create a pickle file containing a pandas DataFrame with columns `inputs` (matching the test set `inputs`) and `predicted_brief_hospital_course`.
 3. Upload your submission to the designated Submission Folder:
 
@@ -83,11 +81,14 @@ We welcome any approach for hospital course summarization, including open-weight
 We employ a combination of automatic and rubric-based evaluation:
 
 * **Automatic Evaluation:** NLP metrics including BLEU, ROUGE-L, and BERT-Score.
-* **Rubric-Based Evaluation:**  Evaluation using pre-specified criteria defined by clinicians. An LLM is used to evaluate submitted solutions (`predicted_brief_hospital_course`) against these criteria.
+* **Rubric-Based Evaluation:**  Evaluation using pre-specified criteria defined by physicians. An LLM is used to evaluate submitted solutions (`predicted_brief_hospital_course`) against these criteria.
 
 ## Contributing
 
-Contributions are welcome! Code contributions (e.g., your solution's code) can be submitted via pull request. Physicians can contribute to rubric development by requesting access to our evaluation platform: 
+We welcome contributions!
+
+* **Code Contributions:** Share your solutions via pull request.
+* **Physician Expertise (Rubric Development):** Physicians can contribute to rubric development by requesting access to our evaluation platform: 
 
 👉 <a href="https://drive.google.com/drive/folders/XXXX" target="_blank" rel="noopener">**Contribute Your Expertise: Rubric Development (Access Upon Approval)**</a>  
 
