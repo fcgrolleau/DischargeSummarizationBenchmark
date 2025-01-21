@@ -28,8 +28,8 @@ Upon approval, you will receive access instructions for the HIPAA-compliant Goog
 
 The benchmark comprises:
 
-* **Training Set (1500 patients):** Paired input clinical notes and corresponding physician-edited "Brief Hospital Course" summaries (silver labels).
-* **Test Set (200 patients):** Input clinical notes only.
+* **Training Set (1500 Stanford Health Care patients):** Paired input clinical notes and corresponding physician-edited "Brief Hospital Course" summaries (silver labels).
+* **Test Set (200 Stanford Health Care patients):** Input clinical notes only.
 
 The methodology for data selection and curation is described in `dataset_preparation.md` (forthcoming).
 
