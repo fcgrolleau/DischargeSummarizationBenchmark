@@ -76,7 +76,7 @@ Evaluation results will be available within 48 hours of submission.
 
 We welcome any approach for hospital course summarization, including open-weight models from Hugging Face (prompted, fine-tuned, chain-of-thought, in-context learning, etc.). Proprietary models are acceptable as long as HIPAA compliance is maintained (e.g., do not send PHI to standard LLM APIs; secure versions may be permissible).
 
-## Evaluation Metrics
+## Evaluation
 
 We use a combination of automated metrics and a physician-guided rubric to evaluate submitted summaries:
 
