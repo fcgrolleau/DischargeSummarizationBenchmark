@@ -78,10 +78,10 @@ We welcome any approach for hospital course summarization, including open-weight
 
 ## Evaluation Metrics
 
-We employ a combination of automatic and rubric-based evaluation:
+We use a combination of automated metrics and a physician-guided rubric to evaluate submitted summaries:
 
-* **Automatic Evaluation:** NLP metrics including BLEU, ROUGE-L, and BERT-Score.
-* **Rubric-Based Evaluation:**  Evaluation using pre-specified criteria defined by physicians. An LLM is used to evaluate submitted solutions (`predicted_brief_hospital_course`) against these criteria.
+* **Rubric-Based Evaluation:**  Generated summaries are assessed against clinician-defined criteria for clinical accuracy, safety, and relevance.  An LLM applies these criteria to the `predicted_brief_hospital_course` summaries, enabling consistent and efficient evaluation  while maintaining alignment with physician expertise.
+* **Automatic Metrics:** Standard NLP metrics such as BLEU, ROUGE-L, and BERT-Score are used, along with task-specific clinical NLP metrics.  Details on these metrics will be provided in `evaluation_metrics.md`.
 
 ## Contributing
 
