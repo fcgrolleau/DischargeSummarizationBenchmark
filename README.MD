@@ -82,12 +82,14 @@ We welcome any approach for hospital course summarization, including open-weight
 
 We employ a combination of automatic and rubric-based evaluation:
 
-* **Automatic Evaluation:** NLP metrics such as BLEU, ROUGE-L, and BERT-Score.
+* **Automatic Evaluation:** NLP metrics including BLEU, ROUGE-L, and BERT-Score.
 * **Rubric-Based Evaluation:**  Evaluation using pre-specified criteria defined by clinicians. An LLM is used to evaluate submitted solutions (`predicted_brief_hospital_course`) against these criteria.
 
 ## Contributing
 
-Contributions are welcome! Code contributions (e.g., your solution's code) can be submitted via pull request.  Physicians interested in contributing to rubric development, please contact us.
+Contributions are welcome! Code contributions (e.g., your solution's code) can be submitted via pull request.  Physicians interested in contributing to rubric development, please contact us and we will grant you acess to our rubric-based evaluation platform here:
+
+👉 <a href="https://drive.google.com/drive/folders/XXXX" target="_blank" rel="noopener">**Contribute to our Scalable Evaluation Platform (Access Upon Approval)**</a>
 
 ## Contact
 
@@ -99,4 +101,4 @@ For any questions, suggestions, or further information, please contact François
 
 **Affiliation:** Stanford Center for Biomedical Informatics Research, Stanford University
 
-**Last Updated:** January 18, 2025
+**Last Updated:** January 20, 2025
