@@ -1,6 +1,6 @@
 # Discharge Summarization Benchmark
 
-This repository hosts a benchmark for generating draft discharge summaries using Generative AI.  Well-defined goals and evaluation benchmarks are crucial for driving scientific progress in this area.
+This repository hosts a benchmark for generating draft discharge summaries using Generative AI.  Friendly competition and evaluation benchmarks with well-defined goals are crucial for driving scientific progress in this area.
 
 ## Motivation
 
@@ -14,7 +14,7 @@ With the ever-increasing volume of medical information, computational approaches
 
 ## Benchmark Access (Stanford Affiliates Only)
 
-This benchmark uses sensitive patient data from Stanford Health Care and is currently **restricted to Stanford researchers** due to HIPAA regulations.  Access requires a Stanford affiliation and installation of Cardinal Key for secure data access.
+This benchmark uses sensitive patient data from Stanford Health Care and is currently **restricted to Stanford researchers** due to HIPAA regulations.  Access requires a Stanford affiliation and installation of [Cardinal Key](https://uit.stanford.edu/service/cardinalkey/installation) for secure data access.
 
 **To request access:**
 
