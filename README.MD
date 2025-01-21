@@ -91,8 +91,7 @@ Contributions are welcome! Code contributions (e.g., your solution's code) can b
 
 👉 <a href="https://drive.google.com/drive/folders/XXXX" target="_blank" rel="noopener">**Contribute Your Expertise: Rubric Development (Access Upon Approval)**</a>  
 
-Physician input is crucial for creating a clinically valid rubric. (Combined sentences and rephrased for better flow)
-
+Physician input is crucial for creating a clinically valid rubric.
 
 ## Contact
 
