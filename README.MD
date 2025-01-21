@@ -89,7 +89,7 @@ We employ a combination of automatic and rubric-based evaluation:
 
 Contributions are welcome! Code contributions (e.g., your solution's code) can be submitted via pull request. Physician input is crucial for developing clinically valid rubrics. Physicians can contribute by requesting access to our evaluation platform: 
 
-👉 <a href="https://drive.google.com/drive/folders/XXXX" target="_blank" rel="noopener">**Contribute Your Expertise: Rubric Development (Access Upon Approval)**/a>
+👉 <a href="https://drive.google.com/drive/folders/XXXX" target="_blank" rel="noopener">**Contribute Your Expertise: Rubric Development (Access Upon Approval)**</a>
 
 ## Contact
 
