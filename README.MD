@@ -87,7 +87,7 @@ We use a combination of automated metrics and a physician-guided rubric to evalu
 
 We welcome contributions!
 
-* **Code Contributions:** Please feel free to share your solutions via pull request.
+* **Code Contributions:** Please feel free to share your solutions via pull requests to the `scripts/solutions` folder.
 * **Physician Expertise (Rubric Development):** Physicians can contribute to rubric development by requesting access to our evaluation platform: 
 
 👉 <a href="https://docs.google.com/spreadsheets/d/13Dy6mv3NW6eiAsEpKdY37eajPFXaF4CdknEg5Owg9zo/edit?gid=1738738529#gid=1738738529" target="_blank" rel="noopener">**Contribute Your Expertise: Rubric Development (Access Upon Approval)**</a>  
