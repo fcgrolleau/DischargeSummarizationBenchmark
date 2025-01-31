@@ -90,7 +90,7 @@ We welcome contributions!
 * **Code Contributions:** Please feel free to share your solutions via pull requests to the `scripts/solutions` folder.
 * **Physician Expertise (Rubric Development):** Physicians can contribute to rubric development by requesting access to our evaluation platform: 
 
-👉 <a href="https://docs.google.com/spreadsheets/d/13Dy6mv3NW6eiAsEpKdY37eajPFXaF4CdknEg5Owg9zo/edit?gid=1738738529#gid=1738738529" target="_blank" rel="noopener">**Contribute Your Expertise: Rubric Development (Access Upon Approval)**</a>  
+👉 <a href="https://docs.google.com/spreadsheets/d/14da4tjN8VsNsXt8njeTuOPoZKJI4DDpWQYOD1wS_h3E/edit?gid=1260558155#gid=1260558155" target="_blank" rel="noopener">**Contribute Your Expertise: Rubric Development (Access Upon Approval)**</a>  
 
 Physician input is crucial for creating clinically valid rubrics.
 
